@@ -23,10 +23,26 @@ select {
 h1 {
     text-align: center;
     color: #596e79;
+    font-size: 30px;
+}
+
+h2 {
+    color: #596e79;
+    margin: 0 0 7px;
+    font-size: 21px;
+}
+
+h3 {
+    color: #596e79;
+    margin: 0;
+}
+
+h4 {
+    color: #596e79;
+    margin: 0 0 10px;
 }
 
 .displayed-cities {
     display: flex;
     justify-content: space-between;
-    color: #596e79;
 }
