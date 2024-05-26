@@ -47,3 +47,9 @@ h4 {
     border-bottom: 1px dashed rgb(223, 211, 195, 0.5);
     padding: 7px;
 }
+
+footer {
+    color: #c7b198;
+    font-size: 17px;
+    line-height: 11px;
+}
