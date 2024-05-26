@@ -1,11 +1,22 @@
+body {
+    background-color: #f0ece2;
+}
+
 .container {
     max-width: 500px;
     margin: 0 auto;
+    padding: 50px;
+    margin: 60px 0;
     background-color: #dfd3c3;
+    box-shadow: 17px 18px 19px rgb(223, 211, 195);
+    border-radius: 5px;
 }
 
-body {
-    background-color: #f0ece2;
+select {
+    display: block;
+    width: 90%;
+    border-radius: 5px;
+    padding: 5px;
 }
 
 h1 {
