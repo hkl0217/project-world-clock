@@ -1,5 +1,11 @@
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: #dfd3c3;
+}
+
 body {
-    background: #ba5ea7;
+    background-color: #f0ece2;
 }
 
 h1 {
