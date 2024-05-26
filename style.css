@@ -41,7 +41,21 @@ h4 {
     margin: 0 0 10px;
 }
 
-.displayed-cities {
+.displayed-city-Manila {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px dashed rgb(223, 211, 195, 0.5);
+    padding: 7px;
+}
+
+.displayed-city-Gaza {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px dashed rgb(223, 211, 195, 0.5);
+    padding: 7px;
+}
+
+.displayed-city-Dublin {
     display: flex;
     justify-content: space-between;
     border-bottom: 1px dashed rgb(223, 211, 195, 0.5);
@@ -52,4 +66,5 @@ footer {
     color: #c7b198;
     font-size: 17px;
     line-height: 11px;
+    text-align: center;
 }
