@@ -3,7 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css"/>
+    <script
+    scr="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.30.1/moment.min.js"
+  ></script>
+  <link rel="stylesheet" href="style.css"/>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.45/moment-timezone-with-data-1970-2030.min.js"></script>
     <title>World Clock Project</title>
 </head>
 <body>
@@ -17,20 +22,20 @@
         <option value="America/Toronto"> Toronto, Canada </option>
     </select>
     <div class="displayed-cities">
-        <div class="displayed-city-Manila">
+        <div class="manila" id="manila">
             <h2> Manila, Philippines 🇵🇭 </h2>
-            <div clas="assigned-date-Manila"> February 17, 2024 </div>
-            <div clas="assigned-time-Manila"> 03:32 <small>AM </small></div>
+            <div clas="date"> February 17, 2024 </div>
+            <div clas="time"> 03:32 <small>AM </small></div>
         </div>
-        <div class="displayed-city-Gaza">
+        <div class="gaza" id="haza">
             <h3> Gaza, Palestine 🇵🇸 </h3>
-            <div clas="assigned-date-Gaza"> February 17, 2024 </div>
-            <div clas="assigned-time-Gaza"> 22:33 <small>PM </small> </div>
+            <div clas="date"> February 17, 2024 </div>
+            <div clas="time"> 22:33 <small>PM </small> </div>
         </div>
-        <div class="displayed-city-Dublin">
+        <div class="dublin" id="dublin" >
             <h4> Dublin, Irelind 🇮🇪 </h4>
-            <div clas="assigned-date-Dublin"> February 17, 2024 </div>
-            <div clas="assigned-time-Dublin"> 20:40 <small>PM </small> </div>
+            <div clas="date"> February 17, 2024 </div>
+            <div clas="time"> 20:40 <small>PM </small> </div>
         </div>
     </div>
 </div>
