@@ -5,18 +5,18 @@ let manilaDateElement = manilaElement.querySelector(".date");
 let manilaTimeElement = manilaElement.querySelector(".time");
 let manilaTime = moment().tz("Asia/Manila");
 
-manilaDateElement.innerHTML = manilaTime.format("MMMM Do YYYY");
+manilaDateElement.innerHTML = manilaTime.format(`MMMM Do YYYY`);
 manilaTimeElement.innerHTML = manilaTime.format("h:mm:ss [<small>]A[</small>]");
-}, 1000);
 
 let gazaElement = document.querySelector("#gaza");
 let gazaDateElement = gazaElement.querySelector(".date");
 let gazaTimeElement = gazaElement.querySelector(".time");
 let gazaTime = moment().tz("Asia/Gaza");
 
-gazaDateElement.innerHTML = gazaTime.format("MMMM Do YYYY");
+gazaDateElement.innerHTML = gazaTime.format(`MMMM Do YYYY`);
 gazaTimeElement.innerHTML = gazaTime.format("h:mm:ss [<small>]A[</small>]");
 
+}, 1000);
 
 
 function updateCity(event) {
