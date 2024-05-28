@@ -14,7 +14,7 @@ let gazaDateElement = gazaElement.querySelector(".date");
 let gazaTimeElement = gazaElement.querySelector(".time");
 let gazaTime = moment().tz("Asia/Gaza");
 
-gazaDateElement.innerHTML = gazaTime.format("MMMM Do YYYY");
+gazaDateElement.innerHTML = gazaTime.format(MMMM Do YYYY);
 gazaTimeElement.innerHTML = gazaTime.format("h:mm:ss [<small>]A[</small>]");
 
 
@@ -22,8 +22,8 @@ gazaTimeElement.innerHTML = gazaTime.format("h:mm:ss [<small>]A[</small>]");
 function updateCity(event) {
 let cityTimezone = event.target.value;
 let cityTime = moment().tz(cityTimezone);
-
-let cityElement = document.querySelector("#city")
+let cityName = cityTimezone.replace("_", " ").split("/")[1];
+let cityElement = document.querySelector("#city");
     cityElement.innerHTML = `
     <div>
         <h2> ${cityName} </h2>
