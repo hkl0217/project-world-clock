@@ -1,5 +1,7 @@
 let manilaElement = document.querySelector("#manila");
 let manilaDateElement = manilaElement.querySelector(".date");
+let manilaTime = moment();
 let manilaTimeElement = manilaElement.querySelector(".time");
-let manilaDateElement = `${ }`;
-let manilaTimeElement = `${ }`;
+
+manilaDateElement.innerHTML = manilaTimeElement.format("MMMM Do YYYY");
+manilaTimeElement.innerHTML = manilaTime.format("h:mm:ss [<small>]A[</small>]");
