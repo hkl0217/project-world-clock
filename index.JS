@@ -14,7 +14,7 @@ let gazaDateElement = gazaElement.querySelector(".date");
 let gazaTimeElement = gazaElement.querySelector(".time");
 let gazaTime = moment().tz("Asia/Gaza");
 
-gazaDateElement.innerHTML = gazaTime.format(MMMM Do YYYY);
+gazaDateElement.innerHTML = gazaTime.format("MMMM Do YYYY");
 gazaTimeElement.innerHTML = gazaTime.format("h:mm:ss [<small>]A[</small>]");
 
 
