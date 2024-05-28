@@ -17,11 +17,21 @@ let gazaTime = moment().tz("Asia/Gaza");
 gazaDateElement.innerHTML = gazaTime.format("MMMM Do YYYY");
 gazaTimeElement.innerHTML = gazaTime.format("h:mm:ss [<small>]A[</small>]");
 
-let dublinElement = document.querySelector("#dublin");
-let dublinDateElement = dublinElement.querySelector(".date");
-let dublinTimeElement = dublinElement.querySelector(".time");
-let dublinTime = moment().tz("Europe/Dublin");
 
-dublinDateElement.innerHTML = dublinTime.format("MMMM Do YYYY");
-dublinTimeElement.innerHTML = dublinTime.format("h:mm:ss [<small>]A[</small>]");
 
+function updateCity(event) {
+let cityTimezone = event.target.value;
+let cityTime = moment().tz(cityTimezone);
+
+let cityElement = document.querySelector("#city")
+    cityElement.innerHTML = `
+    <div>
+        <h2> ${cityName} </h2>
+        <div clas="date"> ${cityTime.format("MMMM Do YYYY")} </div>
+        <div clas="time">${cityTime.format("h:mm:ss")} <small> ${cityTime.format("A")}</small></div>
+    </div>`;
+}
+
+let citySelectElement = document.querySelector("#city");
+
+citySelectElement.addEventListener("change", updateCity)
