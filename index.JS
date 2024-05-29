@@ -18,9 +18,11 @@ gazaTimeElement.innerHTML = gazaTime.format("h:mm:ss [<small>]A[</small>]");
 
 }, 1000);
 
-
 function updateCity(event) {
 let cityTimezone = event.target.value;
+if (cityTimezone === "current") {
+    cityTimezone = moment.tz.guess();
+}
 let cityTime = moment().tz(cityTimezone);
 let cityName = cityTimezone.replace("_", " ").split("/")[1];
 let cityElement = document.querySelector("#city");
