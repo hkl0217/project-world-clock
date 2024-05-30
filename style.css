@@ -13,22 +13,26 @@ body {
 
 select {
     display: block;
-    width: 90%;
+    width: 92%;
     border-radius: 5px;
     padding: 5px;
     background-color: #f0ece2;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 h1 {
     text-align: center;
     color: #596e79;
     font-size: 30px;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 h2 {
     color: #596e79;
-    margin: 0 0 7px;
+    margin-top: 20px;
     font-size: 21px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 h3 {
