@@ -16,15 +16,15 @@ select {
     display: block;
     width: 92%;
     border-radius: 5px;
-    border-color: 3px solid #c1b19b;
+    border-color: 3px solid rgb(193, 177, 155);
     padding: 5px;
-    background-color: #f2e4d2;
+    background-color: #e8dac9;
 }
 
 h1 {
     text-align: center;
     color: #596e79;
-    font-size: 30px;
+    font-size: 35px;
     margin-bottom: 0 auto;
 }
 
