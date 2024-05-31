@@ -16,16 +16,16 @@ select {
     display: block;
     width: 92%;
     border-radius: 5px;
-    border-color: #DFD3C3;
+    border-color: 3px solid #c1b19b;
     padding: 5px;
-    background-color: #e5d9c9;
+    background-color: #f2e4d2;
 }
 
 h1 {
     text-align: center;
     color: #596e79;
     font-size: 30px;
-    margin-bottom: 20px;
+    margin-bottom: 0 auto;
 }
 
 h2 {
