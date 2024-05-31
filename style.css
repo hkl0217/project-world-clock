@@ -1,5 +1,6 @@
 body {
     background-color: #f0ece2;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .container {
@@ -17,7 +18,6 @@ select {
     border-radius: 5px;
     padding: 5px;
     background-color: #f0ece2;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 h1 {
@@ -25,24 +25,27 @@ h1 {
     color: #596e79;
     font-size: 30px;
     margin-bottom: 20px;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 h2 {
     color: #596e79;
     margin-top: 20px;
+    margin-bottom: 2px;
     font-size: 21px;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 h3 {
     color: #596e79;
-    margin: 0;
+    margin-top: 7px;
+    margin-bottom: 2px;
+    font-size: 24px;
+   
 }
 
-h4 {
-    color: #596e79;
-    margin: 0 0 10px;
+.date {
+    color: #6695ad;
+    font: 15px;
+    line-height: 10px;
 }
 
 .displayed-cities {
@@ -53,6 +56,12 @@ h4 {
     margin: 10px 0;
 }
 
+.time {
+    color: #285f7a;
+    font: 21px;
+    line-height: 17px;
+    
+}
 
 footer {
     color: #c7b198;
