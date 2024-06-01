@@ -29,8 +29,8 @@ let cityElement = document.querySelector("#city");
     cityElement.innerHTML = `
     <div>
         <h2> ${cityName} </h2>
-        <div clas="date"> ${cityTime.format("MMMM Do YYYY")} </div>
-        <div clas="time">${cityTime.format("h:mm:ss")} <small> ${cityTime.format("A")}</small></div>
+        <div class="date"> ${cityTime.format("MMMM Do YYYY")} </div>
+        <div class="time">${cityTime.format("h:mm:ss")} <small> ${cityTime.format("A")}</small></div>
     </div>`;
 }
 
