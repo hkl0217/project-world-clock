@@ -61,6 +61,8 @@ h3 {
 .time {
     color: #596e79;
     font: 50px;
+    font-weight: bold;
+    line-height: 30px
     margin-top: 17px;
 }
 
