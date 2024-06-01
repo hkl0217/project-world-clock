@@ -14,9 +14,9 @@ body {
 
 select {
     display: block;
-    width: 92%;
+    width: 98%;
     border-radius: 5px;
-    border-color: 3px solid rgb(193, 177, 155);
+    border-color: 3px solid rgb(193, 177, 155, 1);
     padding: 5px;
     background-color: #e8dac9;
 }
@@ -55,15 +55,14 @@ h3 {
     border-bottom: 3px solid rgb(223, 211, 195, 0.5);
     padding: 7px;
     margin-top: 10px;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
 
 .time {
     color: #596e79;
-    font: 27px;
-    line-height: 21px;
+    font: 35px;
     font-weight: bold;
-    margin-top: 12px;
+    margin-top: 20px;
     margin-bottom: 7px;
 }
 
